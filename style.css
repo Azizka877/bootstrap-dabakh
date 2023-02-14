@@ -1,16 +1,28 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jura&family=Open+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@300&display=swap');
 
 body{
     background: url(images/images\ \(3\).avif) no-repeat ;
     background-size: cover;
+    background-attachment: fixed;
 }
 h1{
     letter-spacing: 3px;
+    
+    text-transform: uppercase;
+    
+    font-family: 'Jura', sans-serif;
+    font-size: 60px;
+    
 }
 h2{
     color: #cb0d0d;
+    
 }
-
+h3{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 .bar-navigation{
     height: 100px;
     background: #490909;
@@ -20,6 +32,13 @@ h2{
     color: white;
     
 }
+.bar-navigation .navbar-nav .nav-item .nav-link:hover,
+.bar-navigation .navbar-nav .nav-item .nav-link:focus{
+ color: darkgoldenrod;
+}
+
+/* partie1 */
+
 .article2{
     width: 500px;
     height: 300px;
@@ -52,6 +71,72 @@ h2{
     background: #f6e1c5;
     height: 400px;
 }
-.egalite{
+
+.footer{
+    background: #311919;
+}
+
+.resto{
+    background: url(images/resto.png);
+    height: 500px;
     
+}
+.grand-espace{
+    margin-top: 300px;
+}
+
+
+.Article{
+    background-color: #f6e1c5;
+    width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    
+}
+ /*-------------- products -----------------------*/
+
+.gateau{
+    background: url(images/gateau.png) ;
+    background-size: cover;
+    height: 580px;
+}
+.gateau2{
+    background: url(images/unsplash_MXovqM130UI.png) ;
+    background-size: cover;
+    height: 580px;
+}
+.gateau3{
+    background: url(images/fleur1.png) ;
+    background-size: cover;
+    height: 580px;
+}
+.espaces-moyen{
+    margin-top: 100px;
+}
+.article-p{
+    background-color: #f6e1c5;
+    position: absolute;
+    left: -15%;
+    top: 80%;
+}
+.article2-p{
+    background-color: #f6e1c5;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    padding: 30px;
+    
+}
+.article3-p{
+    background-color: #f6e1c5;
+    right: -50px;
+
+}
+.article4-p{
+    background-color: #f6e1c5;
+    padding: 30px;
+    left: 20px;
+
 }
