@@ -1,0 +1,57 @@
+
+
+body{
+    background: url(images/images\ \(3\).avif) no-repeat ;
+    background-size: cover;
+}
+h1{
+    letter-spacing: 3px;
+}
+h2{
+    color: #cb0d0d;
+}
+
+.bar-navigation{
+    height: 100px;
+    background: #490909;
+    
+}
+.bar-navigation .navbar-nav .nav-item .nav-link{
+    color: white;
+    
+}
+.article2{
+    width: 500px;
+    height: 300px;
+    background: #f6e1c5;
+    float: left;
+    margin-left: -250px;
+    
+}
+.btn-red{
+    background: #490909;
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 150px;
+
+}
+.navbar-toggler-icon{
+    color: white;
+    
+}
+.transparent{
+    background: rgba( 231, 76, 60, 0.5) ;
+    
+}
+.promesse{
+    border: 1px solid white;
+}
+.interieur{
+    background: #f6e1c5;
+    height: 400px;
+}
+.egalite{
+    
+}
